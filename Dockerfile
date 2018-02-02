@@ -1,7 +1,7 @@
 FROM daocloud.io/nginx:1.11-alpine
 
 
-COPY ./WebContent/ /usr/share/nginx/html
+COPY ./ /usr/share/nginx/html
 
 EXPOSE 80
 
